@@ -1,0 +1,45 @@
+body {
+		/*//to make the gradiant//*/
+			background: linear-gradient(to bottom right, #F9EDF9, #FCFCB0, #FFB7DD, #FF93DB, #87FFF7 );			  background-size: 100% 150%;
+			}
+			#boarder {
+							position: relative;
+								top: 50%;
+							left: 50%;
+								width: 500px;
+								height: 300px;
+							margin-left: -240px;
+							margin-top: -40px;
+						}
+			#TTT {
+				font-family: fantasy;
+				color: gold;
+				text-align: center;
+				font-size: 60px;
+
+			}
+			/*for each individual div*/
+			.box {
+				border: 3px solid gold;
+				width: 140px;
+				height: 140px;
+				display: inline-block;
+				position: relative;
+				margin: 5px;
+				border-radius: 100px;
+				background-color: none;
+				/*remember you can make background none*/
+			}
+
+			.box:hover {
+				background-color: #FFFF66;}
+			/*dragon */
+			.box.p1 {
+				background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ8vMU1cS8g27XCmV62G3WhpwgOAEgRBa4JRCjYUBsBcA697hMI);
+				background-size: contain;
+			}
+			/*pegasus*/
+			.box.p2 {
+				background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS0TGGlxhH4V9rfLHKbfml8n1IPgR811zFWTfK07JTC2WKyJLM_);
+					background-size: contain;
+				}

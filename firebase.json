@@ -1,6 +1,6 @@
 {
   "firebase": "tic-tac-toe-me",
-  "public": ".",
+  "public": "/Users/sspraggins86/wdi/WDI_LA_14/01-week/tictactoe",
   "ignore": [
     "firebase.json",
     "**/.*",
